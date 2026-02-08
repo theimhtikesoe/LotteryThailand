@@ -1,4 +1,3 @@
-import { Ticket } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { LanguageToggle } from './LanguageToggle';
 
@@ -10,9 +9,12 @@ export function Header() {
       <div className="container py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="p-2 bg-primary rounded-lg">
-              <Ticket className="w-6 h-6 text-primary-foreground" />
-            </div>
+            <img
+              src="/Lottery.png"
+              alt="Lottery logo"
+              className="w-10 h-10 rounded-lg object-cover"
+              loading="eager"
+            />
             <div>
               <h1 className="text-xl md:text-2xl font-bold text-foreground">
                 {t('header.title')}
