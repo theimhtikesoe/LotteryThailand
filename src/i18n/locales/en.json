@@ -1,0 +1,84 @@
+{
+  "header": {
+    "title": "Thai Lottery Live",
+    "subtitle": "Official Results • Updated in Real-Time"
+  },
+  "footer": {
+    "disclaimer": "Results are for reference only. Please verify with official sources.",
+    "dataSource": "Data source: Thai Government Lottery Office",
+    "copyright": "© {{year}} Thai Lottery Live. All times shown in Bangkok timezone (GMT+7)."
+  },
+  "status": {
+    "updated": "Results Updated",
+    "waiting": "Waiting for Results",
+    "lastUpdated": "Last updated"
+  },
+  "countdown": {
+    "nextDraw": "Next Draw",
+    "at": "at 15:00 (Bangkok Time)",
+    "days": "Days",
+    "hours": "Hours",
+    "min": "Min",
+    "sec": "Sec"
+  },
+  "firstPrize": {
+    "title": "1st Prize",
+    "drawDate": "Draw Date",
+    "prize": "Prize"
+  },
+  "quickResults": {
+    "front3": "Front 3 Digits",
+    "last3": "Last 3 Digits",
+    "last2": "Last 2 Digits",
+    "each": "each"
+  },
+  "prizeTable": {
+    "title": "Complete Prize Results",
+    "prizeAmount": "Prize Amount",
+    "each": "each",
+    "prizes": {
+      "first": "1st Prize",
+      "sideFirst": "Side 1st Prize",
+      "second": "2nd Prize",
+      "third": "3rd Prize",
+      "fourth": "4th Prize",
+      "fifth": "5th Prize"
+    },
+    "descriptions": {
+      "first": "1 prize, 6,000,000 baht",
+      "sideFirst": "2 prizes, 100,000 baht each",
+      "second": "5 prizes, 200,000 baht each",
+      "third": "10 prizes, 80,000 baht each",
+      "fourth": "50 prizes, 40,000 baht each",
+      "fifth": "100 prizes, 20,000 baht each"
+    }
+  },
+  "numberChecker": {
+    "title": "Check Your Lottery Number",
+    "placeholder": "Enter 6-digit ticket number",
+    "checkButton": "Check",
+    "congratulations": "Congratulations! You won!",
+    "noWin": "No prizes won for this number. Better luck next time!",
+    "hint": "Enter your 6-digit lottery ticket number to check if you've won any prizes."
+  },
+  "previousDraws": {
+    "title": "Previous Lottery Results",
+    "lastDraws": "Last {{count}} draws",
+    "noResults": "No previous lottery results available",
+    "front3": "Front 3",
+    "last3": "Last 3",
+    "last2": "Last 2"
+  },
+  "historicalSearch": {
+    "title": "Search Historical Results",
+    "selectDate": "Select a draw date",
+    "search": "Search",
+    "clear": "Clear",
+    "hint": "Thai lottery draws occur on the 1st and 16th of each month.",
+    "noResults": "No lottery results found for this date."
+  },
+  "errors": {
+    "loadFailed": "Failed to load lottery results",
+    "tryAgain": "Please try again later"
+  }
+}
