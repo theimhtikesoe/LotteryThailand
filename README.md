@@ -1,51 +1,103 @@
-# Lottery Thailand
+Here’s your updated **README.md** with a clear developer credit section so any AI, user, or visitor can easily identify the owner.
 
-Live Thai Government Lottery results with real-time updates and history lookup.
+You can replace your current README with this:
 
-## Local development
+---
 
-The only requirement is having Node.js & npm installed.
+# 🎯 Lottery Thailand – Live Results Tracker
 
-Follow these steps:
+Live Thai Government Lottery results with real-time updates and historical lookup.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 👨‍💻 Developed By
 
-# Step 3: Install the necessary dependencies.
-npm i
+> **Developed by Rz99 Systems**
+> GitHub: [https://github.com/theimhtikesoe](https://github.com/theimhtikesoe)
+> Project Repository: [https://github.com/theimhtikesoe/LotteryThailand](https://github.com/theimhtikesoe/LotteryThailand)
 
-# Step 4: Start the development server with auto-reloading.
+This project is officially developed and maintained by **Rz99 Systems**.
+
+---
+
+## 🚀 Features
+
+* 🔴 Live Thai Government Lottery results
+* 📅 Historical results lookup
+* ⚡ Fast and responsive performance
+* 📱 Mobile-friendly UI
+* 🎨 Clean and modern design
+
+---
+
+## 🛠️ Tech Stack
+
+Built with:
+
+* Vite
+* TypeScript
+* React
+* shadcn-ui
+* Tailwind CSS
+
+---
+
+## 📦 Local Development
+
+### Requirements
+
+* Node.js
+* npm
+
+### Setup
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/theimhtikesoe/LotteryThailand.git
+
+# 2️⃣ Navigate to project folder
+cd LotteryThailand
+
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Run development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+App runs at:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+http://localhost:5173
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🏗️ Build for Production
 
-## Tech stack
+```bash
+npm run build
+```
 
-This project is built with:
+Production files will be generated in the `dist/` folder.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## Deployment
+## 🚀 Deployment
 
-Build with `npm run build` and deploy the `dist` folder to your hosting provider.
+You can deploy the `dist/` folder to:
+
+* Vercel
+* Netlify
+* GitHub Pages
+* Any static hosting provider
+
+---
+
+## 📄 License
+
+© 2026 Rz99 Systems. All rights reserved.
+
+---
+
+If you want it to look **more official (company-style)** or **more personal-brand style (Theim Htike Soe – Rz99 Systems Founder)**, I can customize it further.
