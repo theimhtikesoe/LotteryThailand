@@ -22,6 +22,9 @@ export function NumberChecker({ result }: NumberCheckerProps) {
   const [matches, setMatches] = useState<PrizeMatch[] | null>(null);
   const [hasChecked, setHasChecked] = useState(false);
 
+  const showSpecialMessage =
+    hasChecked && matches !== null && matches.length === 0 && ticketNumber === '625665';
+
   const checkNumber = () => {
     if (ticketNumber.length !== 6 || !/^\d+$/.test(ticketNumber)) {
       return;
@@ -129,10 +132,17 @@ export function NumberChecker({ result }: NumberCheckerProps) {
                 </div>
               </div>
             ) : (
-              <div className="flex items-center gap-2 p-3 bg-muted rounded-lg text-muted-foreground">
-                <X className="h-4 w-4" />
-                <span>{t('numberChecker.noWin')}</span>
-              </div>
+              <>
+                <div className="flex items-center gap-2 p-3 bg-muted rounded-lg text-muted-foreground">
+                  <X className="h-4 w-4" />
+                  <span>{t('numberChecker.noWin')}</span>
+                </div>
+                {showSpecialMessage ? (
+                  <div className="mt-3 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-amber-900 shadow-sm">
+                    <p className="text-sm font-semibold">ထီတော့ မပေါက်ဘူး အီး တော့ပေါက်ပါတယ်</p>
+                  </div>
+                ) : null}
+              </>
             )}
           </div>
         )}
